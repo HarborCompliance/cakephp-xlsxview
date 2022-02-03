@@ -1,25 +1,23 @@
 {
-    "name": "your-name-here/xlsxview",
-    "description": "XlsxView class for CakePHP",
+    "name": "harborcompliance/cakephp-xlsxview",
+    "description": "An XLSX View class for CakePHP",
     "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "xlsx",
+        "excel",
+        "view",
+        "export"
+    ],
     "license": "MIT",
     "require": {
         "php": ">=7.2",
         "cakephp/cakephp": "^4.0",
         "phpoffice/phpspreadsheet": "^1.21"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^8.5 || ^9.3"
-    },
     "autoload": {
         "psr-4": {
-            "Xlsxview\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Xlsxview\\Test\\": "tests/",
-            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+            "XlsxView\\": "src/"
         }
     }
 }
